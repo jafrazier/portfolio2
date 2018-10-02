@@ -1,0 +1,110 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  overflow: scroll;
+  background: url('https://hdwallpapers87.com/wp-content/uploads/2016/11/brooklyn_bridge_new_york_3-wallpaper-3840x2160.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color:rgba(255, 255, 255, 0.9);
+}
+
+h1{
+  text-align: center;
+}
+.navbar {
+  height: 65px;
+  font-size: 25px;
+  background: rgba(0, 0, 0, 0.01) !important;
+}
+.navbar-dark .navbar-nav .nav-link{
+  color:rgba(255, 255, 255, 0.9);
+  margin-right: 15px;
+  transition: all ease 1s;
+  border:
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+  font-weight: inherit;
+  opacity: .5;
+  border-top: rgba(255, 255, 255, 0.9) 3px solid;
+  border-bottom: rgba(255, 255, 255, 0.9) 3px solid;
+  font-size: 25px;
+}
+
+.container-liquid {
+  height: auto;
+  padding: 1%;
+ }
+.main {
+  position: absolute;
+  z-index: 0;
+  height: 94.5vh;
+  margin: 65px 0;
+  padding-bottom: 65px;
+  overflow-y: scroll;
+  width: 100vw;
+  background: rgba(0, 0, 0, 0.5);
+
+ }
+ .row {
+   box-sizing: content-box;
+ }
+ .about {
+  margin-top: 10%;
+  height: 100vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+ }
+.aboutinfo{
+  height: auto;
+  /* border: white 2px solid; */
+}
+.headshot{
+  text-align: center;
+  padding: 5% 0;
+}
+.headshot img {
+  height: 40vh;
+  border-radius: 50%;
+  margin-bottom: 20px;
+
+}
+.mybio {
+  padding-top: 10%;
+  font-size: 1.5em;
+}
+ .skills {
+   background: black;
+   padding: 3%;
+ }
+ .skillinfo {
+   border: white 2px solid;
+   height: 75vh;
+
+ }
+ .gallery {
+   height: 110vh;
+ }
+ .galimg {
+   width: 70vw;
+   margin: 0 auto;
+ }
+
+ .galitem{
+   height: auto;
+   text-align: center;
+   margin-bottom: 50px;
+ }
+
+ .galitem video {
+   height: 40vh;
+ }
+ .sites a{
+   color: white;
+   text-decoration: none;
+   font-size: 20px;
+ }
+small {
+  position: absolute;
+  left:15px;
+}
