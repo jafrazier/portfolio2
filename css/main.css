@@ -13,22 +13,21 @@ h1{
   text-align: center;
 }
 .navbar {
-  height: 65px;
-  font-size: 25px;
-  background: rgba(0, 0, 0, 0.01) !important;
+  height: 50px;
+  font-size: 15px;
+  background: rgba(0, 0, 0, 0.5) !important;
 }
 .navbar-dark .navbar-nav .nav-link{
   color:rgba(255, 255, 255, 0.9);
   margin-right: 15px;
   transition: all ease 1s;
-  border:
 }
 .navbar-dark .navbar-nav .nav-link:hover{
   font-weight: inherit;
   opacity: .5;
   border-top: rgba(255, 255, 255, 0.9) 3px solid;
   border-bottom: rgba(255, 255, 255, 0.9) 3px solid;
-  font-size: 25px;
+  font-size: 15px;
 }
 
 .container-liquid {
@@ -39,18 +38,18 @@ h1{
   position: absolute;
   z-index: 0;
   height: 94.5vh;
-  margin: 65px 0;
-  padding-bottom: 65px;
+  margin: 50px 0;
   overflow-y: scroll;
   width: 100vw;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.7);
+
 
  }
  .row {
    box-sizing: content-box;
  }
  .about {
-  margin-top: 10%;
+  padding-top: 10%;
   height: 100vh;
   overflow-y: scroll;
   overflow-x: hidden;
@@ -71,7 +70,7 @@ h1{
 }
 .mybio {
   padding-top: 10%;
-  font-size: 1.5em;
+  font-size: 1em;
 }
  .skills {
    background: black;
@@ -102,7 +101,7 @@ h1{
  .sites a{
    color: white;
    text-decoration: none;
-   font-size: 20px;
+   font-size: 15px;
  }
 small {
   position: absolute;
