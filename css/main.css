@@ -80,6 +80,7 @@ hr {
 }
 .headshot img {
   height: 40vh;
+  /* width: 40vh; */
   border-radius: 50%;
   margin-bottom: 20px;
   filter: grayscale(75%);
@@ -130,10 +131,7 @@ hr {
 .myskills img {
   height: 30px;
 }
-.gallery {
 
-
-}
 .galimg {
   width: 70vw;
   margin: 0 auto;
@@ -164,7 +162,7 @@ i {
 }
 .resume {
   height: auto;
-  background: url('https://wallpaper.wiki/wp-content/uploads/2017/05/wallpaper.wiki-NYC-Wallpapers-HD-PIC-WPE002111.jpg');
+  background: url('http://sfwallpaper.com/images/new-york-city-skyline-wallpaper-14.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
